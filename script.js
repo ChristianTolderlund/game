@@ -88,13 +88,11 @@ function showWin() {
 }
 // Showcases the loser
 function showLose() {
-  console.log("You lost");
   document.querySelector("#lose").classList.remove("hidden");
   start();
 }
 // Showcases it is a draw
 function showDraw() {
-  console.log("Draw");
   document.querySelector("#draw").classList.remove("hidden");
   start();
 }
